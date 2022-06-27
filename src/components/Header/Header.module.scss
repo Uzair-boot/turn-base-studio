@@ -1,0 +1,77 @@
+.boxDisplay {
+  flex-grow: 1;
+  display: none;
+  color: white;
+  margin-top: 35px;
+}
+.linkColor {
+  color: white;
+  text-decoration: none;
+}
+.menueIcon {
+  min-width: unset;
+  margin-left: 0.3rem;
+  display: none;
+}
+.menueList {
+  min-width: 100vw;
+  font-size: 14px;
+}
+@media screen and (min-width: 1100px) {
+  .menueIcon {
+    min-width: unset;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    color: #263238;
+  }
+
+  .boxDisplay {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+  }
+}
+.headingColor {
+  color: white !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+.containerWidth {
+  width: 100% !important;
+}
+.linkUnderline {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  & :hover {
+    color: white;
+  }
+}
+.serviceLink {
+  color: white !important;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.activeLink {
+  color: white !important;
+  font-size: 17px;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+
+.icon {
+  background-image: url("../../Assets/images/Arrow.png");
+  background-size: 16px;
+  background-color: blue;
+}
+.logoHide {
+  opacity: 0;
+  &:hover {
+    opacity: 1;
+  }
+}
